@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "fotos",
+  "info": {
+    "singularName": "foto",
+    "pluralName": "fotos",
+    "displayName": "Фото",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "albums": {
+      "displayName": "Альбомы",
+      "type": "component",
+      "repeatable": true,
+      "component": "albums.albomy"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

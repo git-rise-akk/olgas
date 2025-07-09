@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Видео",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videos": {
+      "displayName": "Видео",
+      "type": "component",
+      "repeatable": true,
+      "component": "videos.video"
+    },
+    "backgroundVideo": {
+      "displayName": "Видео фон",
+      "type": "component",
+      "repeatable": false,
+      "component": "background-video.video-fon"
+    }
+  }
+}
